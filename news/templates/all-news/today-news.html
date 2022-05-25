@@ -15,7 +15,11 @@
           
         <h2 class="text-center"> {{ news_item.title }} </h2>
         <p class="text-center"> {{ news_item.post }} </p>
+        <div class="text-center">
+          <img src="{{  news_item.article_image.url}}" class="rounded" alt="No image available">
+        </div>
         <p class="text-center">Published on: {{ news_item.pub_date }} </p>
+
 
 
       </div>
